@@ -38,4 +38,8 @@ func main() {
 	fmt.Println(6 ^ 11)
 	fmt.Println(6 | 11)
 	fmt.Println(6 &^ 11)
+	x := 0
+	if x > 0 && (10/x > 1) {
+		fmt.Println("ok")
+	}
 }
