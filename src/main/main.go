@@ -10,6 +10,17 @@ type (
 	rune int32
 )
 
+const (
+	a2 = 1
+	a3
+	a4
+	a5 = "124"
+	a6 = len(a5)
+)
+
+
+
+
 
 func main() {
 
@@ -29,6 +40,13 @@ func main() {
 	str := 5
 	b1 := strconv.Itoa(str)
 	fmt.Println(b1)
+
+	fmt.Println("==========const===========")
+	fmt.Println(a2)
+	fmt.Println(a3)
+	fmt.Println(a4)
+	fmt.Println(a6)
+
 
 
 }
